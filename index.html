@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+
+  <title>Pomodoro Timer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png">
+
+</head>
+
+<body>
+  <div id="container">
+    <button id=sessionButton>
+      SESSION
+      <br>
+      <span id="sessionTimeDisplay"></span>
+    </button>
+    <button id="plusButton"><i class="fas fa-plus"></i></button>
+    <button id="minusButton"><i class="fas fa-minus"></i></button>
+    <button id="restButton">
+      BREAK
+      <br>
+      <span id="restTimeDisplay"></span>
+    </button>
+    <div id="tomato">
+      <span id="timeDisplay">
+        <span id="minutesDisplay"></span>:<span id="secondsDisplay"></span>
+      </span>
+      <span id="playpauseButton" style="cursor: pointer;"><i class="fas fa-play"></i></span>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+
+</html>
